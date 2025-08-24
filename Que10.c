@@ -1,0 +1,10 @@
+#include <stdio.h>
+void main() 
+{
+    int dollars;
+    float pounds; 
+    printf("Enter the amount of dollars:  ");
+    scanf("%d", & dollars);
+    pounds = dollars * 48 / 70;
+    printf("%d dollars is equal to %f pounds.\n", dollars, pounds);
+}
